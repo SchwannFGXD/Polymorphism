@@ -7,4 +7,8 @@ public class AirVehicle extends Vehicles{
         this.maximumAltitude=maximumAltitude;
 
     }
+
+    public String startUpNoise() {
+        return "nyoom";
+    }
 }

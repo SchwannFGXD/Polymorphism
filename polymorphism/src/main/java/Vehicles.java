@@ -16,9 +16,12 @@ public abstract class Vehicles {
 
     //method
 
-    public String startUpNoise(){
-        return ("vroom");
+    public abstract String startUpNoise();
+
+    public String startUpNoise(String string){
+        return String.format("this vehicle made a %s noise.", string);
     }
+
 
     // getters and setters
 

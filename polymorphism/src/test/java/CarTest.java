@@ -56,4 +56,23 @@ public class CarTest {
         assertEquals(expected,actual);
     }
 
+    @Test
+    public void canStartUp2(){
+        String expected = "this vehicle made a wooooopwooop noise.";
+
+        String actual = car.startUpNoise("wooooopwooop");
+
+        assertEquals(expected,actual);
+    }
+
+    @Test
+    public void engineStartUpTest(){
+
+        String expected = "This Cars engine was tested for 7 seconds.";
+
+        String actual = car.engineTest(7);
+
+        assertEquals(expected,actual);
+    }
+
 }

@@ -4,4 +4,11 @@ public class LandVehicle extends Vehicles{
         super(numberOfWheels,maximumOccupancy,fuelType, publicTravel);
 
     }
+
+    @Override
+    public String startUpNoise() {
+        return "nyoom";
+    }
+
+
 }
